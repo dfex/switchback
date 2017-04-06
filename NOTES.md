@@ -9,6 +9,10 @@ Gracefully exit with unknown device type error and as much information as possib
 
 SNMP OIDs:
 
+sysDescr.0
+sysObjectID.0 (requires vendor-specific MIBs)
+sysName.0
+SNMPv2-SMI::enterprises.2636.3.1.2.0 (Juniper Device)
 
 
 Inspired by (and utilising) pyez-junos.
